@@ -1,0 +1,170 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-52
+12-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-49
+13    <uses-feature
+13-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-63
+15        android:required="false" />
+15-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:64-88
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-65
+17-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:20-62
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-69
+18-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:20-66
+19    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+19-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-78
+19-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:20-75
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-66
+20-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:20-63
+21
+22    <uses-feature
+22-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-87
+23        android:name="android.hardware.microphone"
+23-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-59
+24        android:required="false" />
+24-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:60-84
+25    <uses-feature
+25-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-88
+26        android:name="android.hardware.touchscreen"
+26-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-60
+27        android:required="false" />
+27-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:61-85
+28    <uses-feature
+28-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-99
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-71
+30        android:required="false" />
+30-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:72-96
+31    <uses-feature
+31-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-108
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-80
+33        android:required="false" />
+33-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:81-105
+34    <uses-feature
+34-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-111
+35        android:name="android.hardware.vr.headtracking"
+35-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-64
+36        android:required="true"
+36-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:85-108
+37        android:version="1" />
+37-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:65-84
+38
+39    <application
+39-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-20:17
+40        android:allowBackup="false"
+40-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:114-141
+41        android:extractNativeLibs="true"
+41-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+42        android:icon="@mipmap/app_icon"
+42-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:82-113
+43        android:label="@string/app_name"
+43-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-81
+44        android:networkSecurityConfig="@xml/network_sec_config" >
+44-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:142-197
+45        <activity
+45-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-13:16
+46            android:name="com.unity3d.player.UnityPlayerActivity"
+46-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+47            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+47-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:181-362
+48            android:hardwareAccelerated="false"
+48-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:398-433
+49            android:launchMode="singleTask"
+49-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:149-180
+50            android:resizeableActivity="false"
+50-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:363-397
+51            android:screenOrientation="landscape"
+51-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-148
+52            android:theme="@style/UnityThemeSelector" >
+52-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+53            <intent-filter>
+53-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-9:23
+54                <action android:name="android.intent.action.MAIN" />
+54-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+54-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+56-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+57                <category android:name="com.oculus.intent.category.VR" />
+57-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-66
+57-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:19-63
+58            </intent-filter>
+59
+60            <meta-data
+60-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-82
+61                android:name="unityplayer.UnityActivity"
+61-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-58
+62                android:value="true" />
+62-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:59-79
+63            <meta-data
+63-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-78
+64                android:name="android.notch_support"
+64-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-54
+65                android:value="true" />
+65-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+66            <meta-data
+66-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-81
+67                android:name="com.oculus.vr.focusaware"
+67-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-57
+68                android:value="true" />
+68-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:58-78
+69        </activity>
+70
+71        <meta-data
+71-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+72            android:name="unity.splash-mode"
+72-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+73            android:value="0" />
+73-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+74        <meta-data
+74-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+75            android:name="unity.splash-enable"
+75-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+76            android:value="True" />
+76-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+77        <meta-data
+77-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+78            android:name="unity.launch-fullscreen"
+78-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+79            android:value="True" />
+79-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+80        <meta-data
+80-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+81            android:name="unity.allow-resizable-window"
+81-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-59
+82            android:value="False" />
+82-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:60-81
+83        <meta-data
+83-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-81
+84            android:name="notch.config"
+84-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-43
+85            android:value="portrait|landscape" />
+85-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:44-78
+86        <meta-data
+86-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-90
+87            android:name="com.oculus.supportedDevices"
+87-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-58
+88            android:value="quest|quest2" />
+88-->D:\unity\VrChemLab\Library\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:59-87
+89    </application>
+90
+91</manifest>
